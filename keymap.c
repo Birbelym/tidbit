@@ -79,7 +79,7 @@ bool oled_task_user(void) {
 
     // Text
     oled_write_ln_P(PSTR("--------------------"), false);
-    oled_write_ln_P("git:tidbit/birbelym", false);
+    oled_write_ln_P("git:tidbit/birbelym"), false);
 
 
     return false;
